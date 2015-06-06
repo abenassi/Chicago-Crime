@@ -9,7 +9,7 @@ https://catalog.data.gov/dataset/crimes-2001-to-present-398a4
 The shapefile used to plot the Community Areas can be downloaded from:
 https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Community-Areas-current-/cauq-8yn6
 
-In ![this ipython notebook](Chicago-Crime.ipynb) the dataset is quickly explored and reduced to a smaller version `crimes_collapsed.csv` that is uploaded to CartoDB for mapping.
+In [this ipython notebook](Chicago-Crime.ipynb) the dataset is quickly explored and reduced to a smaller version `crimes_collapsed.csv` that is uploaded to CartoDB for mapping.
 
 The reduced dataset can also be generated from the original version running
 
