@@ -13,11 +13,11 @@ In this ipython notebook the dataset is quickly explored and reduced to a smalle
 
 The reduced dataset can also be generated from the original running
 
-cmd```
+```
 python create_dataset.py
 ```
 
-python```
+```
 import create_dataset
 create_dataset.main()
 ```
