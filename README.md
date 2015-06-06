@@ -17,9 +17,7 @@ cmd```
 python create_dataset.py
 ```
 
-or 
-
 python```
 import create_dataset
 create_dataset.main()
-``
+```
