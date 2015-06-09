@@ -47,7 +47,7 @@ def download_dataset():
 
             progress = 0.0
             with open(path, 'wb') as f:
-                for data in response.iter_content():
+                for data in response.iter_content(512 * 1024):
                     f.write(data)
                     progress += len(data)
                     print "Progress", "{:.2f}%".format(progress /
