@@ -35,7 +35,7 @@ def download_dataset():
     # dropbox share link
     url = "https://www.dropbox.com/s/otvhgqo8ftjkd0b/Crimes_-_2001_to_present.csv?dl=1"
 
-    if False and os.path.isfile(path):
+    if os.path.isfile(path):
         print "Dataset was already downloaded!"
 
     else:
