@@ -78,7 +78,7 @@ def main():
 
     # save new collapsed data frame in a csv file
     df_grouped = pd.DataFrame({"crimes_count": group.size()}).reset_index()
-    df_grouped.to_csv("./output/crimes_collapsed.csv")
+    df_grouped.to_csv("crimes_collapsed.csv")
 
     print "Dataset successfully collapsed!"
 
